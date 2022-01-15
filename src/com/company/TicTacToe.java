@@ -34,8 +34,12 @@ public class TicTacToe implements ActionListener // реализация про�
         title_panel.setLayout(new BorderLayout());
         title_panel.setBounds(0, 0, 800, 100);
 
+        button_panel.setLayout(new GridLayout(3, 3));
+        button_panel.setBackground(new Color(150, 150, 150));
+
         title_panel.add(textfield);
-        frame.add(title_panel);
+        frame.add(title_panel, BorderLayout.NORTH);
+        frame.add(button_panel);
     }
 
     @Override
