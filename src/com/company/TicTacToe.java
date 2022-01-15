@@ -24,6 +24,18 @@ public class TicTacToe implements ActionListener // реализация про�
         frame.setLayout(new BorderLayout());
         frame.setVisible(true);
 
+        textfield.setBackground(new Color(25, 25, 25));
+        textfield.setForeground(new Color(25, 255, 0));
+        textfield.setFont(new Font("Etna", Font.BOLD, 75));
+        textfield.setHorizontalAlignment(JLabel.CENTER);
+        textfield.setText("Tic-Tac-Toe");
+        textfield.setOpaque(true);
+
+        title_panel.setLayout(new BorderLayout());
+        title_panel.setBounds(0, 0, 800, 100);
+
+        title_panel.add(textfield);
+        frame.add(title_panel);
     }
 
     @Override
