@@ -11,7 +11,24 @@ public class TicTacToe implements ActionListener // реализация про�
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
+    public void actionPerformed(ActionEvent e)
+    {
+
+    }
+    public void firstTurn()
+    {
+
+    }
+    public void check()
+    {
+
+    }
+    public void xWins(int a, int b, int c)
+    {
+
+    }
+    public void oWins(int a, int b, int c)
+    {
 
     }
 }
